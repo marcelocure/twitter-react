@@ -2,9 +2,10 @@ import React from 'react';
 
 export default function({
     placeholder,
-    onClick
+    onClick,
+    style
 }) {
     return (
-        <input type="text" placeholder={placeholder} onClick={onClick}/>
+        <input type="text" placeholder={placeholder} onClick={onClick} style={style}/>
     );
 }
